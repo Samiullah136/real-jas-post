@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAS post - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html" class="brand" id="change">JAS post</a>
+        </div>
+        <nav>
+            <a  class="change" href="index.html">Home</a>
+            <a  class="change"  href="explore.html">Explore</a>
+            <a  class="change" href="profile.html">Profile</a>
+            <button id="mode-toggle"> switch mode</button>
+        </nav>
+        <div id="notification" class="notification"> <span class="close-btn" onclick="closeNotification()">&times;</span> 
+            <p class="change" >User1 liked your post.</p>
+            <p class="change"  >User2 started following you.</p>
+            <p class="change">User3 commented on your post.</p>
+            <p class="change" >User4 mentioned you in a comment.</p> <span class="check-icon">&#x2714;</span> </div> 
+            <button onclick="showNotification()">Show Notification</button>
+
+        
+        </div>
+    </header>
+    <main>
+        <section class="posts" id="posts-container">
+            <!-- Static Posts -->
+            <div class="post">
+                <img src="/sami.html/image/pexels-kovyrina-937980.jpg" alt="Post Image 1">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user1:</strong> Great pic!</p>
+                    <p><strong>user2:</strong> Love this!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/pexels-njeromin-12734294.jpg" alt="Post Image 2">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user3:</strong> Amazing shot!</p>
+                    <p><strong>user4:</strong> Stunning!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/pexels-njeromin-13846666.jpg" alt="Post Image 3">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/pexels-njeromin-16832245.jpg" alt="Post Image 3">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/pexels-pixabay-36729.jpg" alt="Post Image 3">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/pexels-uhgo-3540807.jpg" alt="Post Image 3">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post36.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+
+            <!-- Add more posts as needed -->
+            <div class="post">
+                <img src="/sami.html/image/post41.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post42.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post20.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post19.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/pexels-matthew-montrone-230847-1324803.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/pexels-simone-coltri-14865557-6317426.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/pexels-scottwebb-1931155.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/pexels-lilartsy-2058498.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div> 
+             <div class="post">
+                <img src="/sami.html/image/post1.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+             
+            <div class="post">
+                <img src="/sami.html/image/post2.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div> <div class="post">
+                <img src="/sami.html/image/post3.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post4.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post5.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post6.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post7.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post8.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post9.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post10.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post11.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post12.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post13.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post14.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="/sami.html/image/post15.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post16.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post17.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>         
+               <div class="post">
+                <img src="/sami.html/image/post18.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            
+            <div class="post">
+                <img src="/sami.html/image/post21.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post22.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post23.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post24.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post25.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post26.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post27.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post28.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post29.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post30.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post31.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post33.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post34.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post35.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+             
+            <div class="post">
+                <img src="/sami.html/image/post36.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post38.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post39.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+            <div class="post">
+                <img src="/sami.html/image/post40.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>            <div class="post">
+                <img src="/sami.html/image/post41.jpg" alt="Post Image 3">
+        
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <input type="text" class="comment-input" placeholder="Add a comment...">
+                    <button class="comment-btn">Comment</button>
+                    <button class="comment-btn"> share</button>
+                </div>
+                <div class="comments">
+                    <p><strong>user5:</strong> Beautiful!</p>
+                    <p><strong>user6:</strong> Wow!</p>
+                </div>
+            </div>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <p>© MADE BY JAS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
